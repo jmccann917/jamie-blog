@@ -1,0 +1,63 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,400;1,600&family=Spectral+SC:wght@700&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to bottom, #0a0a0a, #1e0e2f);
+  font-family: 'Crimson Pro', serif;
+  color: #eaeaea;
+}
+
+.top-banner {
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.6);
+}
+
+.top-banner h1 {
+  font-family: 'Spectral SC', serif;
+  font-size: 1.8rem;
+  color: #d9b8ff;
+  margin: 0;
+}
+
+.top-banner a {
+  color: #ff5c5c;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.blog-container {
+  max-width: 800px;
+  margin: 3rem auto;
+  padding: 2rem;
+  background: rgba(32, 16, 48, 0.75);
+  border-radius: 12px;
+  box-shadow: 0 0 25px rgba(162, 106, 255, 0.3);
+  backdrop-filter: blur(4px);
+  border: 1px solid rgba(255,255,255,0.1);
+}
+
+.blog-container h2 {
+  font-size: 1.5rem;
+  font-family: 'Spectral SC', serif;
+  color: #f7d9ff;
+}
+
+.blog-container p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  margin-bottom: 1.2rem;
+}
+
+.blog-container ul {
+  padding-left: 1.2rem;
+}
+
+.blog-container li {
+  margin-bottom: 0.8rem;
+}
