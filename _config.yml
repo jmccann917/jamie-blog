@@ -1,0 +1,7 @@
+title: Jamie McCann | Blog
+description: Stories that burn and haunt.
+baseurl: ""
+url: "https://yourusername.github.io/blog"
+theme: minima
+plugins:
+  - jekyll-feed
